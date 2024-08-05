@@ -8,49 +8,133 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
 </head>
 <body>
-    <div class="hat">
-        <div class="header">
-            <div class="movie_box">
-                <img class="tv" src="./imgs/tv.png">
-                <span class="tv-text">MovieBox</span>
-            </div>
-            <div class="nav">
-                <div class="white_border">
-                    <span class="nav_text">What do you want to watch?</span>
-                    <img class="search" src="./imgs/Search.png">
+    <div class="main-slide">
+        <div class="container">
+            <div class="header">
+                <div class="movie_box">
+                    <img class="tv" src="./imgs/tv.png">
+                    <span class="tv-text">MovieBox</span>
                 </div>
-            </div>
-            <div class="sign_in">
-                <span class="sign">Sign in</span>
-                <img class="sign_img" src="./imgs/Menu.png">
-            </div>
-        </div>
-        <div class="first_slide">
-            <div class="left-column">
-                <div class="info">
-                    <span class="movie">John Wick 3 : Parabellum</span>
-                    <div class="ratings">
-                        <div class="yellow">
-                            <img class="yellow_rate" src="./imgs/yellow_box.png">
-                            <span class="yellow_rate_text">86.0 / 100</span>
-                        </div>
-                        <div class="tomato">
-                            <img class="tomato_img" src="./imgs/tomato.png">
-                            <span class="tomato_text">97%</span>
-                        </div>
-                    </div>
-                    <p class="something">John Wick is on the run after killing a member of the international assassins' guild, and with a $14 million price tag on his head, he is the target of hit men and women everywhere.</p>
-                    <div class="watch">
-                        <img class="watch_button" src="./imgs/Play.png">
-                        <span class="watch_text">WATCH TRAILER</span>
+                <div class="nav">
+                    <div class="white_border">
+                        <input class="nav_text" placeholder="What do you want to watch?">
+                        <img class="search" src="./imgs/Search.png">
                     </div>
                 </div>
+                <div class="sign_in">
+                    <span class="sign">Sign in</span>
+                    <img class="sign_img" src="./imgs/Menu.png">
+                </div>
             </div>
-            <img class="right-column" src="./imgs/numbers.png">
+            <div class="first_slide">
+                <div class="left-column">
+                    <div class="info">
+                        <span class="movie">John Wick 3 : Parabellum</span>
+                        <div class="ratings">
+                            <div class="yellow">
+                                <img class="yellow_rate" src="./imgs/yellow_box.png">
+                                <span class="yellow_rate_text">86.0 / 100</span>
+                            </div>
+                            <div class="tomato">
+                                <img class="tomato_img" src="./imgs/tomato.png">
+                                <span class="tomato_text">97%</span>
+                            </div>
+                        </div>
+                        <p class="something">John Wick is on the run after killing a member of the international assassins' guild, and with a $14 million price tag on his head, he is the target of hit men and women everywhere.</p>
+                        <div class="watch">
+                            <img class="watch_button" src="./imgs/Play.png">
+                            <span class="watch_text">WATCH TRAILER</span>
+                        </div>
+                    </div>
+                </div>
+                <img class="right-column" src="./imgs/numbers.png">
+            </div>
         </div>
         
+        
+    </div>
+    <div class="second_slide">
+        <div class="title">
+            <p class="title_text">Featured Movie</p>
+            <div class="red_title">
+                <span class="see_more">See more</span>
+                <img src="./imgs/Chevron right.png"  class="see_more_img">
+            </div>
+        </div>
+        <div class="movie_list">
+            <img class="list_start" src="./imgs/Chevron-grey.png">
+            <div class="movie_container">
+                <div class="first-movie">
+                    <img src="./imgs/stranger_things.svg"  class="photo">
+                    <p class="date">USA, 2016 - Current</p>
+                    <p class="name">Stranger Things</p>
+                    <div class="movie_rating">
+                        <div class="yellow_rating">
+                            <img class="yellow_rating1" src="./imgs/yellow_box.png">
+                            <span class="yellow_rating2">86.0 / 100</span>
+                        </div>
+                        <div class="tomato_rating">
+                            <img class="tomato_rating1" src="./imgs/tomato.png">
+                            <span class="tomato_rating2">97%</span>
+                        </div>
+                    </div>
+                    <p class="genre">Action, Adventure, Horror</p>
+                </div>
+                <div class="first-movie">
+                    <img src="./imgs/batman.svg"  class="photo">
+                    <p class="date">USA, 2005</p>
+                    <p class="name">Batman Begins</p>
+                    <div class="movie_rating">
+                        <div class="yellow_rating">
+                            <img class="yellow_rating1" src="./imgs/yellow_box.png">
+                            <span class="yellow_rating2">82.0/ 100</span>
+                        </div>
+                        <div class="tomato_rating">
+                            <img class="tomato_rating1" src="./imgs/tomato.png">
+                            <span class="tomato_rating2">70%</span>
+                        </div>
+                    </div>
+                    <p class="genre">Action, Adventure</p>
+                </div>
+                <div class="first-movie">
+                    <img src="./imgs/spiderman.svg"  class="photo">
+                    <p class="date">USA, 2018</p>
+                    <p class="name">Spider-Man : Into The Spider Verse</p>
+                    <div class="movie_rating">
+                        <div class="yellow_rating">
+                            <img class="yellow_rating1" src="./imgs/yellow_box.png">
+                            <span class="yellow_rating2">84.0 / 100</span>
+                        </div>
+                        <div class="tomato_rating">
+                            <img class="tomato_rating1" src="./imgs/tomato.png">
+                            <span class="tomato_rating2">87%</span>
+                        </div>
+                    </div>
+                    <p class="genre">Animation, Action, Adventure</p>
+                </div>
+                <div class="first-movie">
+                    <img src="./imgs/dunkirk.svg"  class="photo">
+                    <p class="date">USA, 2017</p>
+                    <p class="name">Dunkirk</p>
+                    <div class="movie_rating">
+                        <div class="yellow_rating">
+                            <img class="yellow_rating1" src="./imgs/yellow_box.png">
+                            <span class="yellow_rating2">78.0 / 100</span>
+                        </div>
+                        <div class="tomato_rating">
+                            <img class="tomato_rating1" src="./imgs/tomato.png">
+                            <span class="tomato_rating2">94%</span>
+                        </div>
+                    </div>
+                    <p class="genre">Action, Drama, History</p>
+                </div>
+            </div>
+           
+            <img class="movie_list_end" src="./imgs/Chevron-grey2.png">
+        </div>
     </div>
     
 </body>
