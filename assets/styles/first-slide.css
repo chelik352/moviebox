@@ -41,7 +41,7 @@
 .header__navigation-search {
     padding-right: 10px;
 }
-.sign-in__text {
+.header__sign-in-text {
     color: white;
     font-weight: 700;
     font-size: 16px;
@@ -78,7 +78,7 @@
     justify-content: space-between;
 }
 
-.header__watch-button {
+.first-slide__watch-button {
     background-color: #BE123C;
     width: 169px;
     height: 36px;
@@ -87,7 +87,7 @@
     align-items: center;
     justify-content: center;
 }
-.header__watch_text {
+.first-slide__watch_text {
     font-weight: 700;
     font-size: 14px;
     color: white;
@@ -99,7 +99,7 @@
     height: 110px;
     padding-top: 110px;
 }
-.header__movie-info {
+.first-slide__movie-info {
     display: flex;
     flex-direction: column;
     width: 404px;
@@ -108,7 +108,7 @@
     padding-top: 78px;
 }
 
-.header__movie-description {
+.first-slide__movie-description {
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
