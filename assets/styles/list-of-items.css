@@ -59,23 +59,23 @@
     max-width: 1244px;
     width: 100%;
 }
-.title_text {
+.seconds_slide_title_text {
     font-weight: 700;
     font-size: 36px;
 }
-.see_more {
+.seconds_slide_see_more {
     color: #BE123C;
     font-size: 18px;
     font-weight: 400;
     padding-right: 8px;
 }
-.title {
+.seconds_slide_title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 70px;
 }
-.red_title {
+.seconds_slide_red_title {
     display: flex;
     align-items: center;
 }
@@ -87,29 +87,29 @@
     width: 100%;
     align-items: center;
 }
-.date {
+.movie_date {
     font-weight: 700;
     font-size: 12px;
     color: #9CA3AF;
 }
-.name {
+.movie_name {
     font-weight: 700;
     font-size: 18px;
     color: #111827;
 }
-.yellow_rating2 {
+.rating_yellow_rating2 {
     font-size: 12px;
     font-weight: 400;
     color: #111827;
     padding-left: 10px;
 }
-.tomato_rating2 {
+.rating_tomato_rating2 {
     font-size: 12px;
     font-weight: 400;
     color: #111827;
     padding-left: 10px;
 }
-.genre {
+.movie_genre {
     font-weight: 700;
     font-size: 12px;
     color: #9CA3AF;
@@ -123,11 +123,11 @@
     display: flex;
     align-items: center;
 }
-.yellow_rating {
+.movie_yellow_rating {
     display: flex;
     align-items: center;
 }
-.first-movie {
+.movie_card {
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -164,7 +164,7 @@
     height: 490px;
 }
 
-.photo {
+.movie_photo {
     width: 450px;
     height: 288px;
     padding-top: 44px;
