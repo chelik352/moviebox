@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/styles/first-slide.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/styles/third-slide.css">
     <link rel="stylesheet" href="assets/styles/list-of-items.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -163,7 +164,7 @@
             <div class="movie_list">
                 <img class="list_start" src="./assets/imgs/Chevron-grey.png">
                 <div class="movie_container">
-                    <div class="first-movie">
+                    <div class="slider-element">
                         <img src="./assets/imgs/dune.png" class="photo">
                         <p class="date">USA, 2021</p>
                         <p class="name">Dune</p>
@@ -179,7 +180,7 @@
                         </div>
                         <p class="genre">Action, Adventure, Drama</p>
                     </div>
-                    <div class="first-movie">
+                    <div class="slider-element">
                         <img src="./assets/imgs/notime.png" class="photo">
                         <p class="date">USA, 2021</p>
                         <p class="name">No Time To Die</p>
@@ -195,7 +196,7 @@
                         </div>
                         <p class="genre">Action, Adventure, Thriller</p>
                     </div>
-                    <div class="first-movie">
+                    <div class="slider-element">
                         <img src="./assets/imgs/sangci.png" class="photo">
                         <p class="date">USA, 2021</p>
                         <p class="name">Shang-Chi and the Legend of the Ten Rings</p>
@@ -211,7 +212,7 @@
                         </div>
                         <p class="genre">Action, Adventure, Fantasy</p>
                     </div>
-                    <div class="first-movie">
+                    <div class="slider-element">
                         <img src="./assets/imgs/dontbreathe.png" class="photo">
                         <p class="date">USA, 2021</p>
                         <p class="name">Don't Breathe 2</p>
@@ -243,25 +244,26 @@
                         <img src="./assets/imgs/Chevron right.png" class="see_more_img">
                     </div>
                 </div>
-                <div class="movie_list">
+                <div class="list-of-items">
                     <img class="list_start" src="./assets/imgs/Chevron-grey.png">
                     <div class="movie_container">
-                        <div class="first-moviee">
-                            <img src="./assets/imgs/lamb.png" class="photo">
-                            <p class="name">Lamb (2021) Trailer</p>
+                        <div class="list__movie-container">
+                            <div class="slider-elemente">
+                                <img src="./assets/imgs/lamb.png" class="slider-element__horizontal">
+                                <p class="name">Lamb (2021) Trailer</p>
+                            </div>
+                            <div class="slider-elemente">
+                                <img src="./assets/imgs/suicidesquad.png" class="slider-element__horizontal">
+                                <p class="name">The Suicide Squad : John Cena Interview</p>
+
+                            </div>
+                            <div class="slider-elemente">
+                                <img src="./assets/imgs/house.png" class="slider-element__horizontal">
+
+                                <p class="name">Will there be a new era of horror movie?</p>
+
+                            </div>
                         </div>
-                        <div class="first-moviee">
-                            <img src="./assets/imgs/suicidesquad.png" class="photo">
-                            <p class="name">The Suicide Squad : John Cena Interview</p>
-
-                        </div>
-                        <div class="first-moviee">
-                            <img src="./assets/imgs/house.png" class="photo">
-
-                            <p class="name">Will there be a new era of horror movie?</p>
-
-                        </div>
-
                     </div>
                 </div>
 
@@ -269,7 +271,56 @@
                 <img class="movie_list_end" src="./assets/imgs/Chevron-grey2.png">
             </div>
     </div>
-
+    <div class="third_slide">
+        <div class="third_slide__title">
+            <span class="title__title_text">Featured Casts</span>
+            <div class="title__red_title">
+                <span class="title__see_more">See more</span>
+                <img src="./assets/imgs/Chevron right.png" class="title__see_more_img">
+            </div>
+        </div>
+        <div class="third-slide__list">
+            <img class="list__list_start" src="./assets/imgs/Chevron-grey.png">
+            <div class="list__movie-container">
+                <div class="slider-element">
+                    <img src="./assets/imgs/keanu.png" class="slider-element__vertical">
+                    <p class="movie__name">Keanu Reeves</p>
+                </div>
+                <div class="slider-element">
+                    <img src="./assets/imgs/ryan.png" class="slider-element__vertical">
+                    <p class="movie__name">Ryan Reynolds</p>
+                </div>
+                <div class="slider-element">
+                    <img src="./assets/imgs/timothe.png" class="slider-element__vertical">
+                    <p class="movie__name">Timothée Chalamet</p>
+                </div>
+                <div class="slider-element">
+                    <img src="./assets/imgs/chloe.png" class="slider-element__vertical">
+                    <p class="movie__name">Chloë Grace Moretzs</p>
+                </div>
+            </div>
+            <img class="movie_list_end" src="./assets/imgs/Chevron-grey2.png">
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="last_slide">
+        <div class="last_slide__soc_media_container">
+            <div class="soc_media_container__one">
+                <img src="./assets/imgs/facebook.png" class="one__one">
+                <img src="./assets/imgs/instagram.png" class="one__two">
+                <img src="./assets/imgs/twitter.png" class="one__three">
+                <img src="./assets/imgs/youtube.png" class="one__four">
+            </div>
+            <div class="soc_media_container__two">
+                <span class="two__text">Conditions of Use</span>
+                <span class="two__text">Privacy & Policy</span>
+                <span class="two__text">Press Room</span>
+            </div>
+            <div class="soc_media_container__three">
+                <span class="three__text">© 2021 MovieBox by Adriana Eka Prayudha  </span>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

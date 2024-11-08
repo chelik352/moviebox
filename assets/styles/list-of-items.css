@@ -12,12 +12,7 @@
     display: flex;
     align-items: center;
 }
-.movie {
-    font-weight: 700;
-    color: white;
-    font-size: 48px;
-    line-height: 58px;
-}
+
 .info {
     display: flex;
     flex-direction: column;
@@ -156,7 +151,11 @@
     display: flex;
     justify-content: center;
 }
-.first-moviee {
+
+
+
+
+.slider-element {
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -164,10 +163,37 @@
     height: 490px;
 }
 
-.movie__photo {
+.slider-element__vertical {
+    width: 250px;
+    height: 370px;
+    padding-top: 44px;
+    display: flex;
+    gap: 44px;
+}
+
+.slider-element__horizontal {
     width: 450px;
     height: 288px;
     padding-top: 44px;
     display: flex;
     gap: 44px;
 }
+
+.movie {
+    font-weight: 700;
+    color: white;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.title__title_text {
+    font-weight: 700;
+    font-size: 36px;
+    color: black;
+}
+.third_slide__title {
+    display: flex;
+    flex-direction: row;
+    gap: 871px;
+}
+
