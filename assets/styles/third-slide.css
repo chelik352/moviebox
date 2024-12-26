@@ -70,3 +70,51 @@
     align-items: center;
     justify-content: center;
 }
+.seconds_slide__title_text {
+    font-weight: 700;
+    font-size: 36px;
+}
+.seconds_slide__see_more {
+    font-size: 18px;
+    font-weight: 400;
+    color: #BE123C;
+}
+.seconds_slide_red_title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.seconds_slide__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 81px;
+    border: #111827 dotted 3px;
+    
+}
+.movie_list {
+  display: flex;  
+  flex-direction: row;
+  align-items: center;
+  padding-top: 44px;
+
+}
+.list_start {
+    height: 48px;
+    width: 48px;
+    padding-right: 16px;
+}
+.movie_list_end {
+    padding-left: 16px;
+    height: 48px;
+    width: 48px;
+}
+.name {
+    font-weight: 700;
+    padding-top: 12px;
+}
+.second_slide {
+    display: flex;
+    justify-content: center;
+}
