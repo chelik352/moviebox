@@ -118,3 +118,12 @@
     display: flex;
     justify-content: center;
 }
+.last_slide__soc_media_container {
+    display: flex;
+    align-items: center;
+}
+.container_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
